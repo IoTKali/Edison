@@ -38,7 +38,8 @@
 	        self.main()
 	
 This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/SensorThread.py) so let me know if I've worked it somewhere.
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+----------
 #Zone.py
 	import threading
 	import paho.mqtt.client as mqtt
@@ -101,7 +102,8 @@ This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/SensorThread.p
 	            t.start()
 	
 This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/Zone.py) so let me know if I've worked it somewhere.
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+----------
 #Main.py
 	import Zone
 	import pyupm_grove as grove
@@ -119,7 +121,8 @@ This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/Zone.py) so le
 	myZone.main() #Runs infinitely until manually stopped
 			
 This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/main.py) so let me know if I've worked it somewhere.
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+----------
 #sensors.py
 	import pyupm_ttp223 as ttp223
 	import pyupm_grove as grove
@@ -167,7 +170,8 @@ This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/main.py) so le
 	            display.write("places")
 
 This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/https://github.com/IoTKali/Edison/blob/master/sensors.py) so let me know if I've worked it somewhere.
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+----------
 	
 #Client.py
 
@@ -2434,7 +2438,8 @@ This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/https://github
 	    def __init__(self, client_id="", clean_session=True, userdata=None):
 	        super(Mosquitto, self).__init__(client_id, clean_session, userdata)
 This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/paho/mqtt/client.py) so let me know if I've worked it somewhere.
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+----------
 #publish.py
 	
 	# Copyright (c) 2014 Roger Light <roger@atchoo.org>
@@ -2647,4 +2652,5 @@ This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/paho/mqtt/clie
 	    msg = {'topic':topic, 'payload':payload, 'qos':qos, 'retain':retain}
 	    multiple([msg], hostname, port, client_id, keepalive, will, auth, tls, protocol)
 This is [on GitHub](https://github.com/IoTKali/Edison/blob/master/paho/mqtt/publish.py) so let me know if I've worked it somewhere.
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+----------
